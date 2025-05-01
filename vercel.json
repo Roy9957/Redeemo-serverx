@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "sw.js",
+      "dest": "/sw.js",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/.*",
+      "dest": "index.js"
+    },
+    {
+      "src": "/sw.js",
+      "dest": "sw.js"
+    }
+  ]
+}
