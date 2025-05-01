@@ -2,7 +2,7 @@
 const CACHE_VERSION = 'v1';
 const CACHE_NAME = `withdrawal-sw-${CACHE_VERSION}`;
 const DEFAULT_ICON = '/icon.png';
-const FALLBACK_URL = 'http://localhost:7700'; // Replace with your actual domain
+const FALLBACK_URL = 'https://roy9957.github.io/Redeemo/withdraw.html'; // Replace with your actual domain
 
 // Install Event - Caching important assets
 self.addEventListener('install', (event) => {
