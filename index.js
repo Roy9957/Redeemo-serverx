@@ -11,7 +11,7 @@ app.use(express.json());
 
 // Configure Web Push (will use Vercel env vars)
 webpush.setVapidDetails(
-  'mailto:admin@example.com',
+  'mailto:ronobirroy49@gmail.com',
   process.env.VAPID_PUBLIC_KEY,
   process.env.VAPID_PRIVATE_KEY
 );
